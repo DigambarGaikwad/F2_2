@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Market Data</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="flexbox">
+  <div>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button onclick="search()">Search</button>
+  </div>
+  <div>
+    <button onclick="sortByMarketCap()">Sort by Market Cap</button>
+    <button onclick="sortByPercentageChange()">Sort by Percentage Change</button>
+  </div>
+</div>
+  <table id="cryptoTable">
+    <!-- <thead>
+      <tr>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th>Current Price</th>
+        <th>Total Volume</th>
+        <th>Market Cap</th>
+        <th>Percentage Change</th>
+      </tr>
+    </thead> -->
+    <tbody id="cryptoData"></tbody>
+  </table>
+
+  <script src="./script.js"></script>
+</body>
+</html>

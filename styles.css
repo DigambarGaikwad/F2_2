@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    border: 3px solid pink;
+  }
+  
+  h1 {
+    text-align: center;
+    /* border-top: 2px solid bisque; */
+  }
+  
+  table {
+    width: 100%;
+    border: 2px solid white;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    width:90%;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .flexbox{
+    display: flex;
+    justify-content:space-between;
+
+  }
+  
